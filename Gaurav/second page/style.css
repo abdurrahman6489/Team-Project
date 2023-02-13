@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.full-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+/* nav Bar */
+.navbar{
+    z-index: 1;
+    width: 100%;
+    padding: 0px 50px;
+    /* position: fixed;  */
+    background-color: rgb(36, 34, 34);
+}
+.navbar-brand{
+    font-size: xx-large;
+    color: blanchedalmond;
+}
+.logo{
+    color: orange;
+}
+
+.login{
+    text-align: right;
+   
+}
+.btn{
+    color: blanchedalmond;
+    background-color: orange;
+}
+/* main */
+.main{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.main_content{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding: 130px 0;
+    margin: 0 auto;
+    vertical-align: middle;
+    background-color:  rgb(36, 34, 34);
+}
+.back_page{
+    color: rgb(218, 143, 31);
+
+}
+.main_heading{
+        color: blanchedalmond;
+}
+.image{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url(/assets/1image.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: -200px;
+    
+}
+/* information */
+.information{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+.information_head{
+    font-weight: bold
+}
+.footer{
+    height: 300px;
+    text-align: center;
+}
+.footer_title{
+    margin-top: 10%;
+
+}
+.footer_icons{
+    margin-top: 2%;
+}
+.footer_paragraph{
+    padding-top: 2%;
+    margin: 0 65% 0 0;
+}
