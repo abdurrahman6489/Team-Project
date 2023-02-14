@@ -25,6 +25,10 @@
 a{
 	color: white !important;
 	font-size: 26px !important;
+	text-decoration: none !important;
+}
+a:hover{
+	color: gray !important;
 }
 .fa-twitter{
 	  color:white !important;
@@ -111,31 +115,37 @@ a{
 .banner2{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+
+	background-image: url('./banner1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	text-align: center;
+	align-items:center;
+	flex-direction: column;
 }
 .image-banner2{
 		height: 50vh;
 		width: 100%;
 }
-.top{
+/* .top{
 	position: relative;
-}
+} */
 .second{
-	position: absolute;
+
 	padding-top: 5vh;
 	color: white;
+
 }
 .third{
-	position: absolute;
 	color: white;
-	padding-top: 20vh;
+
 	font-family: sans-serif;
 	font-size: 30px;
   	text-shadow: 1.5px 1.5px 2px gray;	
 }
 .fourth{
-	position: absolute;
-	padding-top: 30vh;
+	padding-top: 3vh;
 
 }
 .heading{
@@ -167,4 +177,25 @@ a{
 .page-link{
 		background-color: black !important;
 	color: white !important;	
+}
+.mybutton4{
+	background-color: white !important;
+	color: black !important;
+	opacity: 1 !important;
+	font-weight: bold;
+	width: 250px !important;
+	height: 55px !important;
+	border: 2px solid black !important;
+}
+.mybutton4:hover{
+	opacity: 1 !important;
+	background-color: gray !important;
+}
+.button-post{
+	width: 130px !important;
+	height: 50px !important;
+	font-size: 21px !important;
+}
+.button-post1{
+	margin-left: 8px !important;
 }
