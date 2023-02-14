@@ -30,51 +30,17 @@
     <div class="containers d-flex flex-column">
         <header class="header d-flex flex-row justify-content-start">
             <div class="logo">Blog<span>iffy...</span></div>
-            <div class="createpost">Create Post</div>
             <div class="login-profile"></div>
         </header>
-        <section class="formatting-section">
-            <form>
-                <div class="mb-3 form-group input">
-                    <input type="text" class="title form-control" data-toggle="tooltip" data-placement="top"
-                    title="Enter title" id="input" placeholder="Title" onblur="getVal()"
-                        required />
-                </div>
-            </form>
-            <div class="mb-3 formatting d-flex flex-row">
-                <button type="button" class="btn btn-primary bold" data-toggle="tooltip" data-placement="bottom"
-                    title="Bold the selected text">Bold</button>
-                <button type="button" class="btn italic btn-primary italic"data-toggle="tooltip" data-placement="bottom"
-                title="Italicize the selected text">Italicize</button>
-                <button type="button" class="btn upload btn-success upload">Upload</button>
-            </div>
+        <section class="blog-section">
+            <h1>Title</h1>
             <main class="mb-3 d-flex flex-column">
-                <textarea class="form-control" data-toggle="tooltip" data-placement="right"
-                title="Write what u think" id="story" placeholder="Write your story..." name="story"></textarea>
+                <p>Story</p>
             </main>
         </section>
         <div class="post d-flex flex-row justify-content-start align-items-start">
+            <button type="button" id="save-button" class="btn btn-primary post-button">BACK</button>
             <button type="button" id="publish-button" class="btn btn-primary post-button" data-toggle="#exampleModal">PUBLISH</button>
-            <button type="button" id="save-button" class="btn btn-primary post-button">SAVE & PREVIEW</button>
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Publish the story?</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      ...
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Publish</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
         </div>
     </div>
 </body>

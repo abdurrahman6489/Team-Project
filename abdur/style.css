@@ -8,17 +8,11 @@ body{
     position:absolte;
     left:0;
     right:0;
-    /* display:flex;
-    flex-direction: column; */
-    /* border:1px solid grey; */
-    /* background-color: antiquewhite; */
+
 }
 .header{
-    /* display: flex;
-    justify-content: space-between; */
     width: 100vw;
     border: 1px solid orange;
-    /* background-color: hsl(0, 62%, 41%); */
     background-color:hsl(236, 68%, 9%);
 }
 .logo,.login-profile{
@@ -26,7 +20,6 @@ body{
     height:auto;
     margin-top:10px;
     margin-bottom: 10px;
-    /* border:1px solid brown; */
 }
 input{
     width:90% !important;
@@ -47,6 +40,12 @@ textarea{
     overflow-y: auto !important;
     resize: none !important;
     border: none !important;
+}
+textarea:focus,input:focus{
+    border:1px solid #ff5722 !important;
+    border-radius: 8px !important;
+    box-shadow:none !important;
+
 }
 button{
     margin: 1px 15px !important;
@@ -81,9 +80,21 @@ button:hover{
 span{
     color:hsla(16, 100%, 50%, 0.815) !important;
 }
-.formatting-section{
+.formatting-section,.blog-section{
     border: 0.1px solid #ff5722;
     margin:13px;
     border-radius:20px;
     width:90vw;
+}
+h1,p{
+    padding: 10px;
+    margin:10px;
+    font-family: 'Raleway', sans-serif;
+}
+.blog-section{
+    height:76vh;
+    margin-left:20px;
+}
+p{
+    font-size:20px;
 }
