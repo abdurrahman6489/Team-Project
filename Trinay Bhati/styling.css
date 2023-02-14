@@ -1,0 +1,118 @@
+*{
+
+}
+.fa-twitter{
+	  color:white !important;
+}
+.fa-facebook{
+	color:white !important;
+}
+.fa-instagram{
+	color:white !important;
+}
+.button-navbar{
+	margin-right: 5px;
+}
+.navbar-button{
+	color: white;
+	padding:5px;
+}
+.banner1{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center;
+	background-color: #171616;
+	align-items: center;
+}
+.image-banner1{
+	height: 20vh;
+}
+.fa-bars{
+	color:white !important;
+}
+.fa-search{
+	color:white !important;
+}
+.articles{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #1e1d19;
+	padding: 20px;
+}
+.navbar1{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #171616;
+}
+.nav1{
+	width: 7vw;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+.navbar2{
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #1e1d19;
+}
+.nav2{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+a{
+	color: white !important;
+}
+.card{
+	border-radius: 10px !important;
+	background-color: black !important;
+}
+.card-text{
+	color: white;
+}
+.article-image{
+	border-radius: 10px !important;
+}
+.navbar3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: white;	
+	background-color: #1e1d19;
+	padding-top: 10px;
+	font-size: 25px;
+	font-family: cursive;
+}
+.banner2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.image-banner2{
+		height: 50vh;
+		width: 100%;
+}
+.top{
+	position: relative;
+}
+.second{
+	position: absolute;
+	padding-top: 5vh;
+}
+.third{
+	position: absolute;
+	color: black;
+	padding-top: 24vh;
+	font-family: sans-serif;
+	font-size: 20px;
+}
