@@ -80,8 +80,6 @@ a{
 	justify-content: space-between;
 	background-color: #1e1d19;
 }
-
-
 .card{
 	border-radius: 10px !important;
 	background-color: black !important;
@@ -156,4 +154,17 @@ a{
 	justify-content: space-around;
 	background-color: #1e1d19;
 	padding: 0px;
+}
+.navbar4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #1e1d19;
+	padding-top: 25px;
+	font-size: 25px;
+}
+.page-link{
+		background-color: black !important;
+	color: white !important;	
 }
