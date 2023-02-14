@@ -87,11 +87,18 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	color: white;	
+	align-items: center;
 	background-color: #1e1d19;
 	padding-top: 10px;
 	font-size: 25px;
-	font-family: cursive;
+}
+.show-more{
+	font-size: 20px;
+	font-family: sans-serif;
+	padding-right: 5px;
+}
+.fa-caret-right{
+	color: white;
 }
 .banner2{
 	display: flex;
@@ -108,11 +115,35 @@ a{
 .second{
 	position: absolute;
 	padding-top: 5vh;
+	color: white;
 }
 .third{
 	position: absolute;
-	color: black;
-	padding-top: 24vh;
+	color: white;
+	padding-top: 20vh;
 	font-family: sans-serif;
-	font-size: 20px;
+	font-size: 30px;
+  	text-shadow: 1.5px 1.5px 2px gray;	
+}
+.fourth{
+	position: absolute;
+	padding-top: 30vh;
+
+}
+.heading{
+	font-size: 55px;
+  	font-family: 'Trebuchet MS', sans-serif;
+  	text-shadow: 1.5px 1.5px 2px gray;
+}
+.heading2{
+	color: white;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+.articles2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #1e1d19;
+	padding: 0px;
 }
