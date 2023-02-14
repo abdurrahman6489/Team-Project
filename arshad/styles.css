@@ -1,0 +1,119 @@
+.mybutton1{
+            border: none;
+            outline: none;
+            text-align: center;
+            font-size: 15px;
+           padding: 10px 22px;
+           background-color: red;
+           color: white;
+           cursor: pointer;
+           width: auto;
+           height: auto;
+           border-radius: 5px;
+          }
+          .mycenter{
+          display: flex;
+         align-items: center;
+         justify-content: center;
+           }
+
+        .mybutton2{
+ border: none;
+ outline: none;
+ text-align: center;
+ font-size: 15px;
+ padding: 10px 22px;
+ background-color: red;
+ color: white;
+ cursor: pointer;
+ width: auto;
+ height: auto;
+ border-radius: 30px;
+ }
+
+  .myce{
+          display: flex;
+         align-items: left;
+         justify-content: left;
+           }
+
+
+
+
+	.mybutton3{
+ border: 2px solid red;
+ outline: none;
+ text-align: center;
+ font-size: 15px;
+ padding: 10px 22px;
+ background-color: white;
+ color: red;
+ cursor: pointer;
+ width: auto;
+ height: auto;
+ border-radius: 30px;
+ }
+ .mycen{
+ display: flex;
+ align-items: right;
+ justify-content: right;
+
+ }
+
+
+
+
+
+
+	.mybutton4{
+ border: none;
+ outline: none;
+ text-align: center;
+ font-size: 15px;
+ padding: 10px 22px;
+ background-color: red ;
+ color: white;
+ cursor: pointer;
+ width: auto;
+ height: auto;
+ border-radius: 30px;
+ transition: 0.3s;
+ opacity: 0.5;
+ }
+ .mycent{
+ display: flex;
+ align-items: baseline;
+ justify-content: baseline;
+ }
+ 
+ .mybutton4:hover{
+ opacity: 1;
+ } 
+
+
+
+
+ 	.mybutton5{
+
+ border: none;
+ outline: none;
+ text-align: left;
+ font-size: 15px;
+ padding: 10px 22px;
+ background-color: #0000ff ;
+ color: white;
+ cursor: pointer;
+ width: auto;
+ height: auto;
+ border-radius: 30px;
+ }
+ .mycente{
+ display: flex;
+ align-items: center;
+ justify-content: unsafe center;
+
+ }
+ 
+ .mybutton5:hover{
+ background-color: #ff0000
+ } 
