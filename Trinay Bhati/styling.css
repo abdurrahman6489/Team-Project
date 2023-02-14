@@ -1,14 +1,42 @@
 *{
 
 }
+.navbar1{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #171616;
+}
+.nav1{
+	width: 10vw;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+.nav2{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+a{
+	color: white !important;
+	font-size: 26px !important;
+}
 .fa-twitter{
 	  color:white !important;
+	  font-size: 40px !important;
 }
 .fa-facebook{
 	color:white !important;
+	font-size: 40px !important;
 }
 .fa-instagram{
 	color:white !important;
+	font-size: 40px !important;
 }
 .button-navbar{
 	margin-right: 5px;
@@ -27,13 +55,15 @@
 	align-items: center;
 }
 .image-banner1{
-	height: 20vh;
+	height: 30vh;
 }
 .fa-bars{
 	color:white !important;
+	font-size: 40px !important;
 }
 .fa-search{
 	color:white !important;
+	font-size: 40px !important;
 }
 .articles{
 	display: flex;
@@ -41,20 +71,6 @@
 	justify-content: space-around;
 	background-color: #1e1d19;
 	padding: 20px;
-}
-.navbar1{
-	padding-left: 10px;
-	padding-right: 10px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	background-color: #171616;
-}
-.nav1{
-	width: 7vw;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-around;
 }
 .navbar2{
 	padding-left: 20px;
@@ -64,21 +80,15 @@
 	justify-content: space-between;
 	background-color: #1e1d19;
 }
-.nav2{
-	width: 50%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-a{
-	color: white !important;
-}
+
+
 .card{
 	border-radius: 10px !important;
 	background-color: black !important;
 }
 .card-text{
 	color: white;
+	font-size: 24px;
 }
 .article-image{
 	border-radius: 10px !important;
@@ -93,7 +103,7 @@ a{
 	font-size: 25px;
 }
 .show-more{
-	font-size: 20px;
+	font-size: 50px;
 	font-family: sans-serif;
 	padding-right: 5px;
 }
@@ -131,13 +141,13 @@ a{
 
 }
 .heading{
-	font-size: 55px;
+	font-size: 65px;
   	font-family: 'Trebuchet MS', sans-serif;
   	text-shadow: 1.5px 1.5px 2px gray;
 }
 .heading2{
 	color: white;
-	font-size: 35px;
+	font-size: 43px;
 	font-family: sans-serif;
 }
 .articles2{
