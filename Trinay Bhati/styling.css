@@ -85,7 +85,7 @@ a:hover{
 	background-color: #1e1d19;
 }
 .card{
-	border-radius: 10px !important;
+	border-radius: 12px !important;
 	background-color: black !important;
 }
 .card-text{
@@ -93,7 +93,7 @@ a:hover{
 	font-size: 24px;
 }
 .article-image{
-	border-radius: 10px !important;
+	border-radius: 12px !important;
 }
 .navbar3{
 	display: flex;
