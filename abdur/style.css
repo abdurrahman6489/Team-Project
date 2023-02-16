@@ -12,8 +12,10 @@ body{
 }
 .header{
     width: 100vw;
-    border: 1px solid orange;
-    background-color:hsl(236, 68%, 9%);
+    /* border: 1px solid whitesmoke !important; */
+    /* background-color:hsl(236, 68%, 9%); */
+    background-color: #1e1d19 !important;
+    /* border-radius: 5px; */
 }
 .logo,.login-profile{
     width:200px;
@@ -30,6 +32,7 @@ input{
     font-weight:bolder !important;
     overflow-y: auto !important;
     border:none !important;
+    background-color: white !important;
 }
 textarea{
     width:90% !important;
@@ -40,18 +43,24 @@ textarea{
     overflow-y: auto !important;
     resize: none !important;
     border: none !important;
+    background-color: white !important;
 }
 textarea:focus,input:focus{
-    border:1px solid #ff5722 !important;
-    border-radius: 8px !important;
+    /* border:1px solid white !important;
+    border-radius: 8px !important; */
     box-shadow:none !important;
+    color:black !important
 
 }
 button{
     margin: 1px 15px !important;
     padding:5px !important;
-    background-color: orange !important;
+    background-color: white !important;
+    color:blue !important;
     border:none !important;
+}
+.formatting>button{
+    border:1px solid blue !important;
 }
 button:hover{
     background-color: white !important;
@@ -62,9 +71,9 @@ button:hover{
     text-align: center;
 }
 .post button{
-    width:14vw !important;
+    width:18vw !important;
     height:6vh !important;
-    font-size:90% !important;
+    font-size:80% !important;
     margin-top: 1vh !important;
 }
 .logo,.createpost{
@@ -81,10 +90,11 @@ span{
     color:hsla(16, 100%, 50%, 0.815) !important;
 }
 .formatting-section,.blog-section{
-    border: 0.1px solid #ff5722;
+    background-color: white;;
+    border: 0.1px solid white;
     margin:13px;
     border-radius:20px;
-    width:90vw;
+    width:70vw;
 }
 h1,p{
     padding: 10px;
@@ -98,3 +108,13 @@ h1,p{
 p{
     font-size:20px;
 }
+.body-section{
+    background-color: #1e1d19;
+    height:91vh;
+}
+.card{
+    margin-top:3vh !important;
+    overflow:hidden !important;
+    text-overflow: ellipsis !important;
+}
+
