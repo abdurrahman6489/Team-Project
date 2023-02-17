@@ -116,5 +116,28 @@ p{
     margin-top:3vh !important;
     overflow:hidden !important;
     text-overflow: ellipsis !important;
+    border-radius:8px !important;
+}
+/* .card h5{
+    background-color: #1e1d19 !important;
+    color:yellow !important;
+} */
+.login-profile{
+    /* background-color: white; */
+    text-align: center;
+}
+.login-profile>button{
+    width:45% !important;
+    height:80% !important;
+    border-radius:8px !important;
+}
+.logo{
+    width: 100px;
+    height: 45px;
+    background-image: url(./logo1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:12px;
+    margin-left:5px;
 }
 
