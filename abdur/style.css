@@ -17,12 +17,14 @@ body{
     background-color: #1e1d19 !important;
     /* border-radius: 5px; */
 }
+/* the containers for the logo and login profile button */
 .logo,.login-profile{
     width:200px;
     height:auto;
     margin-top:10px;
     margin-bottom: 10px;
 }
+/* the title of the blog designed using inputs. used css properties */
 input{
     width:90% !important;
     padding:10px !important;
@@ -34,6 +36,7 @@ input{
     border:none !important;
     background-color: white !important;
 }
+/* the content of the blog designed using textarea. used css properties */
 textarea{
     width:90% !important;
     padding:10px !important;
@@ -45,6 +48,7 @@ textarea{
     border: none !important;
     background-color: white !important;
 }
+/* if clicked in the input or text area then no box shadow should come */
 textarea:focus,input:focus{
     /* border:1px solid white !important;
     border-radius: 8px !important; */
@@ -52,30 +56,39 @@ textarea:focus,input:focus{
     color:black !important
 
 }
+/* designing of all buttons like margin padding */
 button{
     margin: 1px 15px !important;
     padding:5px !important;
     background-color: white !important;
     color:blue !important;
-    border:none !important;
-}
-.formatting>button{
     border:1px solid blue !important;
 }
+/* this is the formatting done to ensure that all the buttons have same border colour to over
+ride bootstrap default format*/
+/* .formatting>button{
+    border:1px solid blue !important;
+} */
+
+/* if hovered on button then its text color and border color should change */
 button:hover{
     background-color: white !important;
     color:orange !important;
     border:1px solid orangered !important;
 }
-.post{
+/* .post{
     text-align: center;
-}
+} */
+/* width and height of post buttons i.e. publish and save & preview buttons are increased
+from remianing buttons */
 .post button{
     width:18vw !important;
     height:6vh !important;
     font-size:80% !important;
     margin-top: 1vh !important;
 }
+/* in the logn and createpost containers flex used to 
+ensure that all contents are aligned perfectly to center */
 .logo,.createpost{
     display:flex;
     justify-content: center;
@@ -86,9 +99,8 @@ button:hover{
 .createpost{
     font-size: 25px !important;
 }
-span{
-    color:hsla(16, 100%, 50%, 0.815) !important;
-}
+/* the part containing the formatting buttons, title, content writing part is givena width,
+color, border etc */
 .formatting-section,.blog-section{
     background-color: white;;
     border: 0.1px solid white;
@@ -96,6 +108,7 @@ span{
     border-radius:20px;
     width:70vw;
 }
+/* in the index2 html page it is used to give padding margin and font */
 h1,p{
     padding: 10px;
     margin:10px;
@@ -105,13 +118,16 @@ h1,p{
     height:76vh;
     margin-left:20px;
 }
+/* in index2 html the content part font is increased */
 p{
     font-size:20px;
 }
+/* the part excluding the header is given background color */
 .body-section{
     background-color: #1e1d19;
     height:91vh;
 }
+/* the cards used for showing recent posts expecially given overflow properties hidden */
 .card{
     margin-top:3vh !important;
     overflow:hidden !important;
@@ -122,15 +138,17 @@ p{
     background-color: #1e1d19 !important;
     color:yellow !important;
 } */
+/* to keep login button in center */
 .login-profile{
-    /* background-color: white; */
     text-align: center;
 }
+/* button used in login profile container given height,width and a border-radius */
 .login-profile>button{
     width:45% !important;
     height:80% !important;
     border-radius:8px !important;
 }
+/* the logo contianer given logo ans background image */
 .logo{
     width: 100px;
     height: 45px;
