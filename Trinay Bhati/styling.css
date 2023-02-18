@@ -1,6 +1,9 @@
 *{
 
 }
+::selection{
+color: GRAY;
+}
 .navbar1{
 	padding-top: 5px;
 	padding-left: 10px;
@@ -30,13 +33,22 @@ a{
 a:hover{
 	color: gray !important;
 }
+.fa-twitter:hover{
+	font-size: 50px !important;
+}
 .fa-twitter{
 	  color:white !important;
 	  font-size: 40px !important;
 }
+.fa-facebook:hover{
+	font-size: 50px !important;
+}
 .fa-facebook{
 	color:white !important;
 	font-size: 40px !important;
+}
+.fa-instagram:hover{
+	font-size: 50px !important;
 }
 .fa-instagram{
 	color:white !important;
@@ -85,9 +97,16 @@ a:hover{
 	justify-content: space-between;
 	background-color: #1e1d19;
 }
+.card:hover{
+	box-shadow: 5px 5px 10px gray !important;
+	
+	cursor: pointer !important;
+
+}
 .card{
 	border-radius: 13px !important;
 	background-color: black !important;
+
 }
 .card-text{
 	color: white;
@@ -105,18 +124,9 @@ a:hover{
 	padding-top: 10px;
 	font-size: 25px;
 }
-.show-more{
-	font-size: 50px;
-	font-family: sans-serif;
-	padding-right: 5px;
-}
-.fa-caret-right{
-	color: white;
-}
 .banner2{
 	display: flex;
 	flex-wrap: wrap;
-
 	background-image: url('./banner1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -129,14 +139,9 @@ a:hover{
 		height: 50vh;
 		width: 100%;
 }
-/* .top{
-	position: relative;
-} */
 .second{
-
 	padding-top: 5vh;
 	color: white;
-
 }
 .third{
 	color: white;
@@ -147,7 +152,6 @@ a:hover{
 }
 .fourth{
 	padding-top: 3vh;
-
 }
 .heading{
 	font-size: 65px;
