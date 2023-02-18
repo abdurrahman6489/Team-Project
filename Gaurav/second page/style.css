@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background: #000;
+}
 .full-page{
     display: flex;
     flex-direction: column;
@@ -17,6 +20,7 @@
 a{
     text-decoration: none;
     font-size: larger;
+    cursor: pointer;
 }
 /* nav Bar */
 .navbar{
