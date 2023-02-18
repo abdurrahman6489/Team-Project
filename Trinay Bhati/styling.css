@@ -98,7 +98,7 @@ a:hover{
 	background-color: #1e1d19;
 }
 .card:hover{
-	box-shadow: 5px 5px 10px gray !important;
+	box-shadow: 8px 8px 10px #2e2c26 !important;
 	
 	cursor: pointer !important;
 
